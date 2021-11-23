@@ -1,0 +1,10 @@
+$primary-color: rgba(88, 51, 144, 1);
+$primary-hover-color: rgba(88, 51, 144, 0.7);
+$secondary-color: rgba(35, 145, 207, 1);
+$secondary-hover-color: rgba(35, 145, 207, 0.7);
+$text-color: rgba(52, 60, 69, 1);
+$text-offset-color: white;
+$text-offset-hover-color: rgba(27, 54, 93, 0.7) ff;
+$border-color: #ccc;
+$background-color: #fcfcfc;
+$custom-shadow: rgba(0, 0, 0, 0.2);

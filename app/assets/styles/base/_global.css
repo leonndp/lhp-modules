@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+    color: #3A4A64;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
