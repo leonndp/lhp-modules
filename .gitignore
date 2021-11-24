@@ -9,15 +9,8 @@
 *.vi
 *~
 *.sass-cache
-<<<<<<< HEAD
 node_modules/
 docs/
-=======
-*.env
-node_modules/
-docs/
-app/index.html
->>>>>>> Built programs, team, homeloans, insights and about pages
 .tmp/
 
 # OS or Editor folders
