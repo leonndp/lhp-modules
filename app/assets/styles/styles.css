@@ -7,6 +7,15 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fill-primary {
+  fill: var(--primary);
+}
+
+p {
+  font-weight: 200;
 }
 
 /* @import 'base/_mixins';
