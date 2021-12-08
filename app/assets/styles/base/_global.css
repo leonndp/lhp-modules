@@ -17,6 +17,12 @@ img {
   box-sizing: border-box;
 }
 
+a:hover,
+a:active,
+a:focus {
+    color: var(--primary) !important;
+}
+
 p {
   font-weight: 200;
 }
