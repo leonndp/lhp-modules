@@ -6,6 +6,7 @@
 /* Background Color */
 .bg-primary {background-color: var(--primary) !important}
 .bg-secondary {background-color: var(--secondary) !important}
+.bg-light {background-color: var(--light) !important}
 .bg-dark {background-color: var(--dark) !important}
 
 /* Icons */
