@@ -1,18 +1,58 @@
 .btn {
   border-radius: 20px;
+  padding: 8px 30px;
 }
 
 .btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  transition: .6s;
+
   &:hover {
     background-color: var(--secondary);
     border-color: var(--secondary);
+    transition: .6s;
   }
 }
 
 .btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  transition: .6s;
+
   &:hover {
     background-color: var(--primary);
     border-color: var(--primary);
+  }
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  background-color: transparent;
+  background-image: none;
+  border-color: var(--primary);
+  transition: .6s;
+
+  &:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #ffffff;
+    transition: .6s;
+  }
+}
+
+.btn-outline-secondary {
+  color: var(--secondary);
+  background-color: transparent;
+  background-image: none;
+  border-color: var(--secondary);
+  transition: .6s;
+
+  &:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #ffffff;
+    transition: .6s;
   }
 }
 

@@ -1,0 +1,15 @@
+/* Text Color */
+.text-primary {color: var(--primary) !important}
+.text-secondary {color: var(--secondary) !important}
+.text-dark {color: var(--dark) !important}
+
+/* Background Color */
+.bg-primary {background-color: var(--primary) !important}
+.bg-secondary {background-color: var(--secondary) !important}
+.bg-dark {background-color: var(--dark) !important}
+
+/* Icons */
+.fill-primary {
+  fill: var(--primary);
+}
+

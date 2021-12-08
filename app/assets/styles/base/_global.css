@@ -3,8 +3,9 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  color: #3a4a64;
+  color: var(--dark) !important
 }
 
 img {
@@ -16,16 +17,6 @@ img {
   box-sizing: border-box;
 }
 
-a,
-a:hover,
-a:visited {
-  text-decoration: none;
-  outline: none;
-  color: white;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;
+p {
+  font-weight: 200;
 }
