@@ -15,3 +15,26 @@
     border-color: var(--primary);
   }
 }
+
+.btn-top-nav {
+  border-bottom: 50px solid var(--primary);
+  border-left: 25px solid var(--light);
+  margin-top: -5px;
+  height: 0;
+  width: 250px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+
+  p {
+    color: white;
+    padding: 17px 0 0 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    border-bottom: 50px solid var(--secondary);
+    transition: border-bottom 0.25s ease-in-out;
+  }
+}
