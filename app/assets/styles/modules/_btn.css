@@ -36,7 +36,7 @@
   &:hover {
     background-color: var(--primary);
     border-color: var(--primary);
-    color: #ffffff;
+    color: #ffffff !important;
     transition: .6s;
   }
 }
@@ -51,7 +51,7 @@
   &:hover {
     background-color: var(--secondary);
     border-color: var(--secondary);
-    color: #ffffff;
+    color: #ffffff !important;
     transition: .6s;
   }
 }
