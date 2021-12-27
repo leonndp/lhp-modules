@@ -1,0 +1,8 @@
+.video-content {
+  height: 350px;
+
+  @mixin atMedium {
+    height: 650px;
+  }
+}
+
