@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "Montserrat", sans-serif;
-  color: var(--dark) !important
+  color: var(--dark) !important;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 a:hover,
 a:active,
 a:focus {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 p {

@@ -10,6 +10,13 @@
   align-items: center;
   justify-content: space-between;
 
+  &--styled-a {
+    background-position: center bottom;
+    @mixin atMedium {
+      background-position: 50% 60%;
+    }
+  }
+
   &--flex-col {
     flex-direction: column;
   }
